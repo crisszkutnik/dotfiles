@@ -1,0 +1,8 @@
+# I should find a way to automate this.
+
+# Paste this on ~/.bashrc
+
+# I don't remember this one :(
+alias token = 'echo token_here | xclip --'
+alias python = 'python3'
+alias pip = 'pip3'
