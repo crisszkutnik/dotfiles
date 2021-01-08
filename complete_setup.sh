@@ -5,7 +5,11 @@ sudo apt-get -y upgrade
 sudo apt-get install -y build-essentials
 sudo apt-get install -y xclip
 
-# Execute other scripts
+# Add fira code install here
 
-sh dev_tools.sh
-sh programs.sh
+# Execute other scripts
+# Remember to give the corresponding permissions to each script (chmod)
+
+./dev_tools.sh
+./programs.sh
+./alias.sh
