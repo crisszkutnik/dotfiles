@@ -8,7 +8,7 @@ sudo apt update
 sudo apt install -y nodejs
 
 sudo npm install -g typescript
-sudo npm install -g scss
+sudo npm install -g sass
 
 # python
 sudo apt-get install -y python3
