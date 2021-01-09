@@ -2,9 +2,8 @@ sudo apt-get update
 sudo apt-get -y upgrade
 sudo apt-get install -y build-essentials
 sudo apt-get install -y xclip
+sudo apt-get install curl
 ./alias.sh # Set up alias
-
-# Add fira code install here
 
 # Install kde-plasma
 sudo apt install -y tasksel
