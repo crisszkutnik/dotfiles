@@ -7,6 +7,9 @@ sudo bash nodesource_setup.sh
 sudo apt update
 sudo apt install -y nodejs
 
+sudo npm install -g typescript
+sudo npm install -g scss
+
 # python
 sudo apt-get install -y python3
 sudo apt-get install -y python3-pip
