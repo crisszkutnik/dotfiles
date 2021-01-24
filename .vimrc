@@ -33,6 +33,7 @@ call plug#begin("~/.local/share/nvim/site/autoload")
   Plug 'vim-airline/vim-airline-themes'
   Plug 'tpope/vim-fireplace'
   Plug 'christoomey/vim-tmux-navigator'
+  Plug 'HerringtonDarkholme/yats.vim'
   if has('nvim') || has('patch-8.0.902')
     Plug 'mhinz/vim-signify'
   else
@@ -59,6 +60,9 @@ let g:airline_theme='onedark'
 autocmd VimEnter * NERDTree
 let g:NERDTreeGitStatusWithFlags = 1
 let g:NERDTreeIgnore = ['^node_modules$']
+
+" yats.vim config
+set re=0
 
 " coc config
 
