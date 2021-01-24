@@ -15,12 +15,11 @@ do
 	code --install-extension $i
 done
 
-# Fira code install
-
+# Install fira code
 sudo apt-get install curl
 mkdir firacode
 cd firacode
-curl -o Fira_Code.zip https://fonts.google.com/download?family=Fira%20Code
+curl -o Fira_Code.zip https://fonts.google.com/download?familiy=Fira%20Code
 unzip Fira_Code.zip
 mkdir ~/.fonts
 cp -R *.ttf ~/.fonts
