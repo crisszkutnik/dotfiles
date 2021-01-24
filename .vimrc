@@ -31,6 +31,8 @@ call plug#begin("~/.local/share/nvim/site/autoload")
   Plug 'joshdick/onedark.vim'
   Plug 'vim-airline/vim-airline'
   Plug 'vim-airline/vim-airline-themes'
+  Plug 'tpope/vim-fireplace'
+  Plug 'christoomey/vim-tmux-navigator'
   if has('nvim') || has('patch-8.0.902')
     Plug 'mhinz/vim-signify'
   else
