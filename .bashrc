@@ -115,8 +115,10 @@ if ! shopt -oq posix; then
     . /etc/bash_completion
   fi
 fi
-alias mon2cam="deno run --unstable -A -r -q https://raw.githubusercontent.com/ShayBox/Mon2Cam/master/src/mod.ts"
-alias token='echo YOUR_TOKEN_GOES_HERE && echo YOUR_TOKEN_GOES_HERE | xclip -selection clipboard'
+
+GH_TOKEN=""
+
+alias token='echo $GH_TOKEN && echo $GH_TOKEN | xclip -selection clipboard'
 alias python='python3'
 alias pip='pip3'
 alias sat='perl /home/cristobal/dotfiles/color-demo-app/sat.pl HDMI-A-0'
