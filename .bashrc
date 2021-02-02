@@ -91,7 +91,6 @@ fi
 alias ll='ls -alF'
 alias la='ls -A'
 alias l='ls -CF'
-
 # Add an "alert" alias for long running commands.  Use like so:
 #   sleep 10; alert
 alias alert='notify-send --urgency=low -i "$([ $? = 0 ] && echo terminal || echo error)" "$(history|tail -n1|sed -e '\''s/^\s*[0-9]\+\s*//;s/[;&|]\s*alert$//'\'')"'
@@ -116,10 +115,12 @@ if ! shopt -oq posix; then
   fi
 fi
 
-GH_TOKEN=""
+GH_TOKEN="a34f1a93dfd215e16cc8dcd928a4c9b8e7ee4432"
 
 alias token='echo $GH_TOKEN && echo $GH_TOKEN | xclip -selection clipboard'
 alias python='python3'
 alias pip='pip3'
 alias sat='perl /home/cristobal/dotfiles/color-demo-app/sat.pl HDMI-A-0'
+alias csgo_on="xrandr --output HDMI-A-0 --mode 1280x720 && sat 1.6"
+alias csgo_off="xrandr --output HDMI-A-0 --mode 1920x1080 && sat 1"
 export TERM=xterm-256color

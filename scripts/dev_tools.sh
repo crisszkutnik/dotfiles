@@ -14,6 +14,3 @@ sudo npm install -g sass
 sudo apt-get install -y python3
 sudo apt-get install -y python3-pip
 
-# vscode and fonts
-sh ./auxiliary_scripts/fonts.sh
-sh ./auxiliary_scripts/vscode.sh
