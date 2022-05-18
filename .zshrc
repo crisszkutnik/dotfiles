@@ -1,6 +1,6 @@
 GH_TOKEN="TOKEN_HERE"
 
-# ZSH_THEME="spaceship"
+ZSH_THEME="spaceship"
 
 alias token='echo $GH_TOKEN && echo $GH_TOKEN | xclip -selection clipboard'
 alias python='python3'
